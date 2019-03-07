@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-size: 1rem;
 }
 .navbar {
@@ -82,4 +82,39 @@ a button:hover {
 .price {
 	font-weight: bolder;
 	font-size: 1rem;
+}
+.cta-wrapper {
+	background-color: 
+	height:;
+	width: 
+}
+.cta-button {
+	background-color: 
+	height:;
+	width: 
+}
+
+
+.card:hover .cta-link{
+	color:#FFBA01;
+}
+
+.cta-link {
+	color:white;
+}
+
+.cta-link:hover{
+	color:#FFBA01;
+	text-decoration:underline;
+}
+
+
+.top-sellers{
+	background-color:black;
+	color:white;
+	text-align:left;
+}
+
+.top-sellers .card-title{
+	font-weight:bold;
 }
