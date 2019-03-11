@@ -1,6 +1,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1rem;
+	box-sizing: border-box;
 }
 .navbar {
 	background-color: black;
@@ -93,7 +94,6 @@ a button:hover {
 	width: 
 }
 
-
 .card:hover .cta-link{
 	color:#FFBA01;
 }
@@ -116,4 +116,13 @@ a button:hover {
 
 .top-sellers .card-title{
 	font-weight:bold;
+}
+
+.pre-footer {
+	height: 126px;
+	background-color: black;
+}
+
+.pre-footer: a img {
+	margin: 10px;
 }
